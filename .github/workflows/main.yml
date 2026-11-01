@@ -1,0 +1,7 @@
+- name: Build apk
+  # Вы можете зафиксировать точный коммит или версию.
+  # uses: MirkoMajkicProductDock/BuildAPK@24cc2d17f0c8e391166603bffe50f207b9d75859
+  используется: MirkoMajkicProductDock/BuildAPK@v0.0.1
+  с:
+    # Передайте название варианта, для которого вы хотите создавать артефакты.
+    вкус: # необязательный параметр, по умолчанию — release
